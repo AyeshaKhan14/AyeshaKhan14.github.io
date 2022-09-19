@@ -36,9 +36,9 @@ const Portfolio = () => {
     {
       id: 4,
       src: starwar,
-      title: "CRUD with React",
+      title: "Star War",
       tech:"HTML | CSS | JavaScript",
-      desc:"I built this website when I was learning about debouncing. I have use SWAP Api to fetch data. User can search for a character, select the character and can view their details by clicking on the character.      ",
+      desc:"I built this website when I was learning about debouncing. I have used SWAP Api to fetch data. User can search for a character, select the character and can view their details by clicking on the character.      ",
       link: "https://strong-maamoul-092c90.netlify.app/",
       repo: "https://github.com/AyeshaKhan14/Star-Wars",
     },
