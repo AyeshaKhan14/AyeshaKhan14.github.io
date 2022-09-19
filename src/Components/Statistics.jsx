@@ -31,12 +31,11 @@ import GitHubCalendar from 'react-github-calendar';
         </p>
       </div>
 
-      <div className="flex justify-center items-center mt-4 text-7xl font-medium">
-        <GitHubCalendar className="text-2xl text-orange-600"
+      <div className="flex justify-center items-center  mt-4 text-6xl font-medium">
+        <GitHubCalendar 
      username="ayeshakhan14" 
   transformData={selectLastHalfYear} 
-  hideTotalCount 
-  hideColorLegend
+ 
 />
       </div>
      </div>

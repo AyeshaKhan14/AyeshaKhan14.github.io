@@ -25,7 +25,7 @@ const Home = () => (
         </h2>
         <div className="mt-4 text-4xl text-white font-bold ">Full Stack Web Developer</div>
         <p className="font-medium	text-2xl text-gray-400 py-4 max-w-md">
-          I love to build websites using the latest front-end technologies and full fleged APIs.
+          I love to build websites using the latest front-end technologies and full fledged APIs.
 
 
         </p>
