@@ -67,6 +67,7 @@ const NavBar = () => {
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
               <Link
+              offset={-100}
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
