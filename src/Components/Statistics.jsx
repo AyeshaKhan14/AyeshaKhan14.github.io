@@ -38,6 +38,10 @@ import GitHubCalendar from 'react-github-calendar';
  
 />
       </div>
+
+      <div style={{marginTop:"60px"}}>
+          <img  alt="Ayesha Khan's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Ayeshakhan14&bg_color=0D1117&color=FFA500&line=FFA500&point=FFA500&hide_border=true" />
+        </div>
      </div>
     )
 

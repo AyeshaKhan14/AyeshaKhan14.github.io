@@ -60,7 +60,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-stone-900	 w-full max-h-fit	mt-20		"
+      className="bg-stone-900	 w-full max-h-fit			"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
