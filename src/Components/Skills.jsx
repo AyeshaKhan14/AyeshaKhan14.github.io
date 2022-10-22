@@ -8,7 +8,12 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import redux from "../assets/redux.png"
+import redux from "../assets/redux.png";
+import chakra from "../assets/chakra.png"
+import mongo from "../assets/mongodb.png"
+import node from "../assets/node.png"
+
+
 const Skills = () => {
   const techs = [
     {
@@ -55,6 +60,24 @@ const Skills = () => {
       title: "Redux",
       style: "shadow-purple-500",
     },
+    {
+      id: 13,
+      src: chakra,
+      title: "Chakra UI",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 14,
+      src: mongo,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 15,
+      src: node,
+      title: "NodeJS",
+      style: "shadow-green-600",
+    },
   ];
 
   return (
@@ -67,10 +90,10 @@ const Skills = () => {
           <p className="text-orange-600	 text-4xl font-bold inline border-b-4 border-gray-500">
             Skills
           </p>
-          <p className="py-6 text-lg	font-medium	text-neutral-400">These are the technologies I've worked with and used them in my projects.</p>
+          {/* <p className="py-6 text-lg	font-medium	text-neutral-400">These are the technologies I've worked with and used them in my projects.</p> */}
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center mt-11 py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

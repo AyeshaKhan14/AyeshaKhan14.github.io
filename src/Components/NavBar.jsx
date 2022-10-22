@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import resume from "../assets/resume.pdf"
+import {BiDownload} from "react-icons/bi"
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -30,13 +32,14 @@ const NavBar = () => {
       id: 6,
       link: "contact",
     },
+  
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-black font-bold fixed nav bg-orange-600 to-orange-700">
       <div>
        
-        <h1 className="text-5xl font-signature ml-2"><a className="cursor-pointer link-underline link-underline-black" target="_blank" rel="noreferrer">Ayesha Khan</a></h1>
+        <h1 className="text-5xl shadow-lg shadow-black font-style: italic ml-2"><a className="cursor-pointer link-underline link-underline-black" target="_blank" rel="noreferrer">AK</a></h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -48,8 +51,19 @@ const NavBar = () => {
             <Link to={link} offset={-100}  smooth duration={500}>
               {link}
             </Link>
+          
           </li>
+          
         ))}
+        <li 
+          className="nav-links px-4 cursor-pointer capitalize font-bold text-xl text-black-500 hover:scale-105 hover:text-black duration-200 link-underline"
+          ><a 
+          href={resume}
+          download={true}
+          // target="_blank"
+          // rel="noreferrer"
+          >
+            Resume</a></li>
       </ul>
 
       <div
@@ -74,11 +88,16 @@ const NavBar = () => {
                 duration={500}
               >
                 {link}
+                
               </Link>
+           
             </li>
           ))}
+
         </ul>
+        
       )}
+      
     </div>
   );
 };

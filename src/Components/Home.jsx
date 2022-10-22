@@ -3,7 +3,6 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import ayesha from "../assets/ayesha.jpeg"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-// import abdulimage from "../assets/abdulimage.jpg"
 import resume from "../assets/resume.pdf"
 
 const Home = () => (
@@ -26,8 +25,6 @@ const Home = () => (
         <div className="mt-4 text-4xl text-white font-bold ">Full Stack Web Developer</div>
         <p className="font-medium	text-2xl text-gray-400 py-4 max-w-md">
           I love to build websites using the latest front-end technologies and full fledged APIs.
-
-
         </p>
        </div>
 
