@@ -60,7 +60,7 @@ const NavBar = () => {
           ><a 
           href={resume}
           download={true}
-          // target="_blank"
+           target="_blank"
           // rel="noreferrer"
           >
             Resume</a></li>
