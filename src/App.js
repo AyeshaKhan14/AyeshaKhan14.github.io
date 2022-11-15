@@ -7,6 +7,7 @@ import Portfolio from "./Components/Portfolio";
 import SocialLinks from "./Components/SocialLinks";
 import Footer from "./Components/Footer"
 import Statistics from "./Components/Statistics";
+import Tools from "./Components/Tools";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
      <Portfolio />
      
       <Skills />
+      <Tools/>
       <Statistics/>
       <Contact />
         <SocialLinks />
