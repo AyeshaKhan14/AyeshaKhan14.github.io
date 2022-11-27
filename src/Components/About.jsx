@@ -19,9 +19,10 @@ const About = () => {
 
         <div className="p-10 border-2 shadow-2xl shadow-orange-500/100 bg-black">
         <p className="text-2xl font-medium">
-        👋I m Ayesha. I have completed a Bachelor of engineering degree in computer science with a penchant for creating websites. 
-        I'm a full-stack web developer with hands-on experience in building websites with MERN stack. 
-        Apart from coding, I love traveling🌏 and listening to music🎶.I always love to do css. </p>      
+        Completed a bachelor of engineering degree in computer science with a penchant for creating websites.
+         A full stack web developer with hands-on experience in building websites with MERN stack.
+          Apart from coding, love traveling🌏 and listening to music 🎶. Always love to design websites.
+        </p>      
        {/* <br />
         <p className="text-lg">
          Proficient in  CODING Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start my career as an entry-level software engineer with a reputed firm driven by technology.
