@@ -43,7 +43,7 @@ import GitHubCalendar from 'react-github-calendar';
       </div>
 
       <div style={{marginTop:"60px"}}>
-          <img  alt="Ayesha Khan's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Ayeshakhan14&bg_color=0D1117&color=FFA500&line=FFA500&point=FFA500&hide_border=true" />
+          <img className="flex justify-center items-center " alt="Ayesha Khan's Activity Graph" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ayeshakhan14&theme=gruvbox" />
         </div>
      </div>
     )
