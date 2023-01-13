@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6da93282.css",
-    "main.js": "/static/js/main.abd1da5b.js",
+    "main.js": "/static/js/main.b8f1d21c.js",
     "static/media/product.png": "/static/media/product.753625d629787bb4783c.png",
     "static/media/boAt.png": "/static/media/boAt.547fdfc6ef4805f07f13.png",
     "static/media/cric.png": "/static/media/cric.8418f1107045ba3588f0.png",
@@ -21,10 +21,10 @@
     "static/media/eduOrange.svg": "/static/media/eduOrange.0793a40dd975bc4acbc54d9e7326a45d.svg",
     "index.html": "/index.html",
     "main.6da93282.css.map": "/static/css/main.6da93282.css.map",
-    "main.abd1da5b.js.map": "/static/js/main.abd1da5b.js.map"
+    "main.b8f1d21c.js.map": "/static/js/main.b8f1d21c.js.map"
   },
   "entrypoints": [
     "static/css/main.6da93282.css",
-    "static/js/main.abd1da5b.js"
+    "static/js/main.b8f1d21c.js"
   ]
 }
