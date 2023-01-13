@@ -32,12 +32,15 @@ import GitHubCalendar from 'react-github-calendar';
       </div>
       <div className="flex gap-9  justify-center mt-14">
       <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ayeshakhan14&show_icons=true&locale=en&layout=compact&theme=gruvbox" alt="ayeshakhan14" /></p>
-      <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayeshakhan14&theme=gruvbox" alt="ayeshakhan14" /></p>
+      <p><img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ayeshakhan14&theme=gruvbox" alt="ayeshakhan14" /></p>
       </div>
       <div className="flex justify-center items-center  mt-16 text-6xl font-medium">
         <GitHubCalendar 
      username="ayeshakhan14" 
-  transformData={selectLastHalfYear} 
+  // transformData={selectLastHalfYear} 
+     year={"last"}
+     color={"orange"}
+     fontSize={20}
  
 />
       </div>
