@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.6da93282.css",
-    "main.js": "/static/js/main.b8f1d21c.js",
+    "main.css": "/static/css/main.84bbb40e.css",
+    "main.js": "/static/js/main.987d5e6a.js",
+    "static/media/jio.png": "/static/media/jio.80f66aceeea5923dcfe2.png",
     "static/media/product.png": "/static/media/product.753625d629787bb4783c.png",
     "static/media/boAt.png": "/static/media/boAt.547fdfc6ef4805f07f13.png",
     "static/media/cric.png": "/static/media/cric.8418f1107045ba3588f0.png",
+    "static/media/coffee.png": "/static/media/coffee.3a8688ecd3c528ebb682.png",
     "static/media/resume.pdf": "/static/media/resume.3cf254835410d88d5885.pdf",
     "static/media/ayesha.jpeg": "/static/media/ayesha.17dbacd441f2039432bf.jpeg",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -20,11 +22,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/eduOrange.svg": "/static/media/eduOrange.0793a40dd975bc4acbc54d9e7326a45d.svg",
     "index.html": "/index.html",
-    "main.6da93282.css.map": "/static/css/main.6da93282.css.map",
-    "main.b8f1d21c.js.map": "/static/js/main.b8f1d21c.js.map"
+    "main.84bbb40e.css.map": "/static/css/main.84bbb40e.css.map",
+    "main.987d5e6a.js.map": "/static/js/main.987d5e6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6da93282.css",
-    "static/js/main.b8f1d21c.js"
+    "static/css/main.84bbb40e.css",
+    "static/js/main.987d5e6a.js"
   ]
 }
